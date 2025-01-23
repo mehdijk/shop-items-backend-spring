@@ -1,5 +1,3 @@
-Here's the corrected Markdown text format:
-
 # Shop Items Backend (Spring)
 
 ## Project Description
