@@ -35,6 +35,7 @@ docker run -d \
   -e SPRING_DATASOURCE_URL=jdbc:postgresql://<DB_HOST>:5432/<DB_NAME> \
   -e SPRING_DATASOURCE_USERNAME=<DB_USERNAME> \
   -e SPRING_DATASOURCE_PASSWORD=<DB_PASSWORD> \
+  -e LLM_API_KEY=<LLL_API_KEY> \
   shop-backend
 ```
 
@@ -43,5 +44,5 @@ docker run -d \
 - Example Endpoint: http://<YOUR_SERVER_IP>:8080/api/items
 
 ## Notes
-- Replace <DB_HOST>, <DB_NAME>, <DB_USERNAME>, and <DB_PASSWORD> with your database details.
+- Replace <LLL_API_KEY>, <DB_HOST>, <DB_NAME>, <DB_USERNAME>, and <DB_PASSWORD> with your database details.
 - Ensure the database is running and accessible from the backend container.
